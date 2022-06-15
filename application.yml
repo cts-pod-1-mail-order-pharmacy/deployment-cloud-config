@@ -1,7 +1,8 @@
 eureka:
-  client:
+  instance:
     preferIpAddress: true
     ip-address: ec2-3-84-219-98.compute-1.amazonaws.com
+  client:
     prefer-same-zone-eureka: false
     register-with-eureka: true
     fetch-registry: true

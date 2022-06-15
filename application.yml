@@ -1,0 +1,6 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://ec2-3-84-219-98.compute-1.amazonaws.com:8761/eureka/
